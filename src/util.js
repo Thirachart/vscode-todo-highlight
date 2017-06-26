@@ -8,41 +8,76 @@ var zapIcon = '$(zap)';
 var defaultMsg = '0';
 
 var DEFAULT_KEYWORDS = {
+    "CHECKLIST": {
+        text: "[]",
+        color: '#fff',
+        backgroundColor: '#EEBF57',
+        overviewRulerColor: 'rgba(255,189,42,0.8)'
+    },
     "TODO:": {
         text: "TODO:",
         color: '#fff',
-        backgroundColor: '#ffbd2a',
+        backgroundColor: '#EEBF57',
         overviewRulerColor: 'rgba(255,189,42,0.8)'
     },
     "FIXME:": {
         text: "FIXME:",
         color: '#fff',
-        backgroundColor: '#f06292',
+        backgroundColor: '#EEBF57',
         overviewRulerColor: 'rgba(240,98,146,0.8)'
     },
-    "DONE" :{    
+    "DONE": {
         text: "DONE",
         color: "#639900",
-        backgroundColor: "rgba(93,153,0,0.1)",
-        isWholeLine : true
+        // backgroundColor: "rgba(93,153,0,0.1)",
+        isWholeLine: true
+    },
+    "CHECKED": {
+        text: "CHECKED",
+        color: "#639900",
+        // backgroundColor: "rgba(93,153,0,0.1)",
+        isWholeLine: true
     },
     "OK": {
         text: "OK",
         color: "#639900",
-        backgroundColor: "#2C4921"
+        // backgroundColor: "#2C4921"
+        isWholeLine: true
     },
     "MERGE:": {
         text: "MERGE:",
         color: '#fff',
-        backgroundColor: '#f06292',
+        backgroundColor: '#EEBF57',
         overviewRulerColor: 'rgba(240,98,146,0.8)'
     },
     "TO-DEPLOY:": {
         text: "TO-DEPLOY:",
         color: '#fff',
-        backgroundColor: '#f06292',
+        backgroundColor: '#EEBF57',
         overviewRulerColor: 'rgba(240,98,146,0.8)'
+    },
+    "REJECT": {
+        text: "REJECT:",
+        color: '#fff',
+        backgroundColor: '#EEBF57',
+        overviewRulerColor: 'rgba(255,189,42,0.8)'
+    },
+    "@": {
+        text: "@",
+        color: '#ffbd2a',
+        isWholeLine: true
+    },
+    "•": {
+        text: "•",
+        color: '#ffbd2a',
+        isWholeLine: true
+    },
+    "<!--": {
+        text: "< !--",
+        color: '#ffbd2a',
+        isWholeLine: true
     }
+    
 };
 
 var DEFAULT_STYLE = {
