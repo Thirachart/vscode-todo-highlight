@@ -19,6 +19,29 @@ var DEFAULT_KEYWORDS = {
         color: '#fff',
         backgroundColor: '#f06292',
         overviewRulerColor: 'rgba(240,98,146,0.8)'
+    },
+    "DONE" :{    
+        text: "DONE",
+        color: "#639900",
+        backgroundColor: "rgba(93,153,0,0.1)",
+        isWholeLine : true
+    },
+    "OK": {
+        text: "OK",
+        color: "#639900",
+        backgroundColor: "#2C4921"
+    },
+    "MERGE:": {
+        text: "MERGE:",
+        color: '#fff',
+        backgroundColor: '#f06292',
+        overviewRulerColor: 'rgba(240,98,146,0.8)'
+    },
+    "TO-DEPLOY:": {
+        text: "TO-DEPLOY:",
+        color: '#fff',
+        backgroundColor: '#f06292',
+        overviewRulerColor: 'rgba(240,98,146,0.8)'
     }
 };
 

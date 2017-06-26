@@ -134,9 +134,9 @@ function activate(context) {
                 // using backgroundColor as the default overviewRulerColor if not specified by the user setting
                 mergedStyle.overviewRulerColor = mergedStyle.backgroundColor;
             }
-
-            mergedStyle.isWholeLine = highlightWholeLine;
-
+            if (!mergedStyle.isWholeLine) {
+                mergedStyle.isWholeLine = highlightWholeLine;
+            }
             mergedStyle.overviewRulerLane = vscode.OverviewRulerLane.Right;
 
             decorationTypes[v] = window.createTextEditorDecorationType(mergedStyle);
